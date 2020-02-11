@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - platform_ffi_communication_test (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - platform_ffi_communication_test (from `.symlinks/plugins/platform_ffi_communication_test/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  platform_ffi_communication_test:
+    :path: ".symlinks/plugins/platform_ffi_communication_test/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  platform_ffi_communication_test: cd90e4b828f79976e66263487c6c2b17ee3d9485
+
+PODFILE CHECKSUM: 083258d7f5e80b42ea9bfee905fe93049bc04c64
+
+COCOAPODS: 1.7.5
