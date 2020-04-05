@@ -15,7 +15,7 @@ func allocate(_ size: UInt64) -> UInt64 {
 
 func int2Data(_ data: UInt64) -> NSMutableData? {
   guard let p = UnsafeMutableRawPointer(bitPattern: UInt(truncatingIfNeeded: data)) else { return nil }
-  return Unmanaged<NSMutableData>.fromOpaque(p).takeRetainedValue()
+  return Unmanaged<NSMutableData>.fromOpaque(p).takeUnretainedValue()
 }
 
 @_cdecl("pfc_ptrFromData")
